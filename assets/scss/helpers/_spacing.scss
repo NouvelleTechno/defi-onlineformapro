@@ -1,0 +1,49 @@
+// Loop generating margin and padding helpers
+@each $name, $size in $spacers {
+    .m-#{$name}{
+        margin: $size;
+    }
+    .mt-#{$name}{
+        margin-top: $size;
+    }
+    .mb-#{$name}{
+        margin-bottom: $size;
+    }
+    .ml-#{$name}{
+        margin-left: $size;
+    }
+    .mr-#{$name}{
+        margin-right: $size;
+    }
+    .mx-#{$name}{
+        margin-left: $size;
+        margin-right: $size;
+    }
+    .my-#{$name}{
+        margin-top: $size;
+        margin-bottom: $size;
+    }
+    .p-#{$name}{
+        padding: $size;
+    }
+    .pt-#{$name}{
+        padding-top: $size;
+    }
+    .pb-#{$name}{
+        padding-bottom: $size;
+    }
+    .pl-#{$name}{
+        padding-left: $size;
+    }
+    .pr-#{$name}{
+        padding-right: $size;
+    }
+    .px-#{$name}{
+        padding-left: $size;
+        padding-right: $size;
+    }
+    .py-#{$name}{
+        padding-top: $size;
+        padding-bottom: $size;
+    }
+}

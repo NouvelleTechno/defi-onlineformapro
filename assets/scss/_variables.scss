@@ -1,0 +1,49 @@
+// Colors
+$white: #fff;
+$icon: #767E90;
+$secondary: #F87F28;
+$grey-dark: #BFBFBF;
+$black: #202020;
+$red: #BB2323;
+
+$colors: (
+    white: $white,
+    icon: $icon,
+    secondary: $secondary,
+    grey-dark: $grey-dark,
+    black: $black,
+    red: $red
+);
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+) !default;
+
+// Radius
+$radius: (
+  0: 0,
+  1: .25rem,
+  2: .5rem,
+  3: .75rem,
+  4: 1rem,
+  50: 50%
+) !default;
+
+// Borders
+$borders: (
+  0: 0px,
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+  10: 10px
+) !default;

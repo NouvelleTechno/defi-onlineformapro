@@ -1,0 +1,6 @@
+// Loop generating borders helpers
+@each $name, $size in $borders {
+    .border-#{$name}{
+        border-width: $size;
+    }
+}

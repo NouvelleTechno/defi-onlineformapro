@@ -1,0 +1,6 @@
+// Loop generating radius helpers
+@each $name, $angle in $radius {
+    .rounded-#{$name}{
+        border-radius: $angle;
+    }
+}
